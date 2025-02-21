@@ -77,7 +77,7 @@ public class Main {
         System.out.println("Movie \"" + movieName + "\" not found");
     }
 
-    static Movie[] deleteMovie(String movieName,Movie[] movies) {
+    static Movie[] deleteMovie(String movieName, Movie[] movies) {
         boolean found = false;
         for (Movie movie : movies) {
             if (movie.getName().equals(movieName)) {
