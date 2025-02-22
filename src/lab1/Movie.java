@@ -1,8 +1,8 @@
 package lab1;
 
 public class Movie {
-    String name;
-    double rating;
+    private String name;
+    private double rating;
 
     public String getName() {
         return name;
